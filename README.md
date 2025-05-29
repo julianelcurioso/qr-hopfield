@@ -31,3 +31,15 @@ Al ejecutar el script, se muestran 3 imágenes:
    ```bash
    git clone https://github.com/tuusuario/qr-hopfield.git
    cd qr-hopfield
+# Resultado visual
+
+A continuación se muestran las imágenes generadas por el prototipo:
+
+# QR Original
+![QR original](./qr_original.png)
+
+# QR con Ruido
+![QR con ruido](./qr_ruido.png)
+
+# QR Recuperado por la Red Hopfield
+![QR recuperado](./qr_recuperado.png)
