@@ -35,11 +35,12 @@ Al ejecutar el script, se muestran 3 imágenes:
 
 A continuación se muestran las imágenes generadas por el prototipo:
 
-# QR Original
+## QR Original
 ![QR original](./qr_original.png)
 
-# QR con Ruido
+## QR con Ruido
 ![QR con ruido](./qr_ruido.png)
 
-# QR Recuperado por la Red Hopfield
+## QR Recuperado por la Red Hopfield
 ![QR recuperado](./qr_recuperado.png)
+
