@@ -63,12 +63,14 @@ def show_image(data, title):
 # Mostrar y guardar QR original
 show_image(pattern, "QR Original")
 plt.savefig("qr_original.png")
+plt.close()
 
 # Mostrar y guardar QR con ruido
 show_image(noisy_qr, "QR con Ruido")
 plt.savefig("qr_ruido.png")
+plt.close()
 
 # Mostrar y guardar QR recuperado
 show_image(recovered_qr, "QR Recuperado por Hopfield")
 plt.savefig("qr_recuperado.png")
-
+plt.close()
